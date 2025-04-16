@@ -22,6 +22,7 @@ export default function MainComponent() {
                 />
                 <button>Add ingredient</button>
             </form>
+            { ingredients.length > 0 ?
             <section>
                 <div className="ingredient-list">
                     <h2>Ingredients:</h2>
@@ -36,7 +37,7 @@ export default function MainComponent() {
                     </div>
                     <button>Get a recipe</button>
                 </div>
-            </section>
+            </section> : null}
         </main>
         </>
     )
