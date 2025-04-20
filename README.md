@@ -2,11 +2,12 @@
 
 **My First React Project!**
 
-A simple and useful project where you input the ingredients you have on hand, and AI will generate a custom recipe just for you! Built with **React.js**, **JavaScript**, **Claude API**, **HTML**, and **CSS**.
+A simple and useful project where you input the ingredients you have on hand, and AI will generate a custom recipe. Built with **React.js**, **JavaScript**, **Claude API**, **HTML**, and **CSS**.
 
 ---
 
 **Functionality**
+
 Input ingredients into the main form, and add them to the list by pressing the '+ Add Ingredient" button. You can always start your list over by clicking "Clear Ingredients".
  
  ![claude image one](./public/claude1.png)
