@@ -40,7 +40,7 @@ export default function MainComponent() {
                     />
                     <button>Add ingredient</button>
                 </form>
-                <button onClick={clearIngredients} className="clear-ingredients-button">Clear Ingredients</button>
+                <button onClick={clearIngredients} className="clear-ingredients-button">Clear All</button>
             </div>
             { ingredients.length > 0 ? <IngredientsList ingredients={ingredients} toggleRecipeShown={toggleRecipeShown} recipeShown={recipeShown} /> : null}
             { recipeShown ? <ClaudeRecipe recipe={claudeRecipe} /> : null}
