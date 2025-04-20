@@ -1,7 +1,5 @@
 # AI Recipe Generator
 
-**My First React Project!**
-
 A simple and useful project where you input the ingredients you have on hand, and AI will generate a custom recipe. Built with **React.js**, **JavaScript**, **Claude API**, **HTML**, and **CSS**.
 
 ---
