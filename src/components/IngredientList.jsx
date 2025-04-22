@@ -1,4 +1,4 @@
-export default function IngredientsList({ ingredients, toggleRecipeShown, recipeShown }) {
+export default function IngredientsList({ ingredients, toggleRecipeShown, recipeShown, scrollToRecipe }) {
     
     const ingredientList = ingredients.map((item) => <li key={item}>{item.charAt(0).toUpperCase()+item.slice(1)}</li>)
     
@@ -13,7 +13,7 @@ export default function IngredientsList({ ingredients, toggleRecipeShown, recipe
                 </div>
                 { ingredientList.length > 3 ?
                 <div className="get-recipe-container">
-                    <div>
+                    <div ref={scrollToRecipe}>
                         <h3>Ready for a recipe?</h3>
                         <p>Generate a recipe from your list of ingredients.</p>
                     </div>
